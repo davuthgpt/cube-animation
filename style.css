@@ -68,3 +68,8 @@ body {
   0 0 200px rgba(0,255,0,0.8),
   0 0 200px rgba(0,255,0,1);
 }
+@media screen and (max-width: 600px) {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}

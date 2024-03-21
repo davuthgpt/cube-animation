@@ -18,6 +18,14 @@ body {
   transform: rotateX(-30deg);
   animation: animate 4s linear infinite;
 }
+@media screen and (max-width: 600px) {
+  * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  }
+}
+
 @keyframes animate {
   0% {
     transform: rotateX(-30deg) rotateY(0deg);
@@ -67,9 +75,4 @@ body {
   0 0 200px rgba(0,255,0,0.6),
   0 0 200px rgba(0,255,0,0.8),
   0 0 200px rgba(0,255,0,1);
-}
-@media screen and (max-width: 600px) {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
 }
